@@ -1,0 +1,719 @@
+body, header, section, article, aside, div, img, h1, h2, h3, h4, h5, h6, p, a, hr, ul, ol, li, table, tr, th, td, form, fieldset, legend, input
+{
+	color: black;
+    margin: 0;
+    padding: 0; 
+}
+
+
+#nav
+{
+	background-color: rgba(255,255,255,1); 
+	color: rgba(0, 105, 0, 1);
+	height: auto;
+	min-height: 80px;
+	padding: 0em;
+	position: sticky;
+	top: 0em;
+	margin: 0em;
+	width: 100%;
+	z-index: 10;
+}
+
+#navbarSupportedContent {
+	margin-left: 0em;
+	margin-top: 1.2em;
+	width: 100%;
+}
+
+.navbar-brand {
+	width: 100%;
+}
+.navbar-brand img {
+	border-radius: 0.2em;
+	float: left;
+	margin: 0.3em 0.5em 0em 1.5em;
+}
+
+.navbar-brand span {
+	color: rgba(99, 140, 255, 1);
+}
+
+#navbarSupportedContent ul a {
+	color: #009444;
+	font-size: 1.2em;
+	font-weight: 500;
+	padding-left: 0.8em;
+	margin-top: 0em;
+}
+
+.login ul a {
+	color: #009444;
+	margin: 1.2em 1em 0em 0em;
+}
+
+.login ul {
+	left: 2em;
+}
+
+
+
+#nav button.navbar-toggler {
+	background-color: #00683B;
+	border: 1px solid rgb(1, 19, 143, 1);
+	margin: 0.2em 1em 0.5em 1.6em;
+	}
+
+.navbar-toggler-icon {
+		background-color: rgba(255, 255, 255, 1);
+	}
+
+
+/* Navbar ends Here */
+
+.carousel-item .carousel-caption  {
+  top: 5em;
+}
+
+.carousel-caption h1 { 
+	color: white;
+   	margin-left: -2em;
+	   text-align: left;
+  }
+
+  .carousel-caption h1 span { 
+	color: #009444;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+	font-family: montserrat;
+	padding: 0.5rem 0;
+  }
+
+.carousel-caption p {
+	color: white;
+	margin-left: -2em;
+	margin-top: 1em;
+	font-size: 1.5em;
+	text-align: left;
+  }
+
+.carousel-caption a {
+	color: #009444;
+	margin-left: -2em;
+	margin-top: 1em;
+	font-size: 1em;
+	text-align: left;
+  }
+
+@media screen and (max-width: 576px){
+	#carouselExampleCaptions{
+		min-height: 200px; 
+		width: 100%;
+	}
+
+	.carousel-inner img {
+		min-height: 200px;
+	}
+
+	#carouselExampleCaptions h1 {
+		font-size: 1.8em;
+	}
+
+	#carouselExampleCaptions h4 {
+		font-size: 1em;
+	}
+
+	.carousel-item .carousel-caption  {
+		top: initial;
+	  }
+
+	 .service .card {
+		margin-left: 2.5em;
+	}
+}
+#carouselExampleCaptions h4 {
+	color: white;
+	font-weight: light;
+}
+
+.d-block a {
+	background-color: #0bd368;
+	color: #ffffff;
+	font-size: 0.8em;
+	margin: 1em 0.1em;
+
+}
+
+
+
+
+/* HEADER STYLES END HERE
+------------------------------------------------*/
+
+div#indexWelcome {
+	
+	height: auto;
+	min-height: 200px;	
+	padding: 0em;
+	margin-bottom: 3em;
+	width: 100%;
+}
+
+div#indexWelcome h2 {
+	margin-top: 1.5em;
+}
+
+div#indexWelcome h2 span {
+	color: #009444;
+	text-shadow: 1px 1px 1px rgb(7, 7, 7);
+	font-family: montserrat;
+	padding: 0.5rem 0;
+}
+
+div#indexWelcome h2+p {
+	color: rgb(0, 0, 0, 1);
+	margin: 1em 1em 2em;
+	padding: 1em;
+	text-align: center;
+	font-size: 1em;
+}
+
+div#indexNews {
+	background-image: url('../images/scrabble.png');
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-top: 2px solid #00683B;
+	border-bottom: 2px solid #00683B;
+	clear: both;
+	height: auto;
+	min-height: 200px;	
+	padding: 2em 0em 2em;
+    color: rgba(250,250,250,1);
+    text-align:center;
+    width: 100%;
+}
+
+div#indexNews h1 {
+	color: rgba(250,250,250,1);
+	font-family: "Agency FB";
+	font-weight: bolder;
+	
+}
+
+h5.card-title {
+	font-family: agency fb;
+	font-weight: bold;
+	margin-bottom: 0.2em;
+}
+
+div[class*=col-mb-] {
+	margin: 1.2em 0em 1em 2.5em;
+}
+
+
+.card {
+	box-shadow: 2px 2px 10px 2px #009444;
+}
+
+.card h5 {
+	text-align: left;
+}
+
+.card hr {
+	background-color:#00683B;
+	height: 0.1em;
+	width:25%;
+}
+
+p.card-text {
+	color: rgba(0, 0, 0, 1);
+	text-align: justify;
+	margin: 1em 0em;
+}
+
+.card a {
+	margin-right: 8em;
+}
+
+div#indexNews .card span {
+
+		color: rgba(200, 200, 200, 1);
+		float: left;
+		font-size: 1.0em;
+		font-style: italic;
+		font-weight: 600;
+		margin-left: 0.5em;
+		padding: 0.5em 0em;
+
+}
+
+.card-columns {
+	@include media-breakpoint-only(lg) {
+	  column-count: 4;
+	}
+	@include media-breakpoint-only(xl) {
+	  column-count: 5;
+	}
+  }
+
+/** IndexWelcome Ends Here **/
+
+div#indexSignup .logo_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+	background: #009444;
+    background: linear-gradient(128deg, #00683B 0%, #0bd368 100%);
+	width: 50%;
+    box-shadow: 1px 1px 7px 1px #cecece;
+    clip-path: polygon(75% 0, 100% 38%, 82% 100%, 0 100%, 0 0);
+}
+
+div#indexSignup .card  {
+	margin-right: 6em;
+}
+
+div#indexSignup .card input {
+	margin: 1em 1em 0em;
+	width: 80%;
+}
+
+div#indexSignup .card span {
+	margin: 1em 1em 0em;
+	}
+
+div#indexSignup {
+		background-color: #c0e9d3;
+		
+}
+
+
+#indexSignup .quality
+{
+	clear: both;
+	min-height: 50vh;
+	padding: 4rem 0;
+	width: 50%;
+}
+
+#indexSignup .quality h2
+{
+	font-family: roboto;
+	font-size: 1.5rem;
+	margin: 0.5em 0em;
+	font-weight: 900;
+	text-align: center;
+}
+
+#indexSignup .quality h2 span
+{
+	color: #009444;
+	font-size: 2.5rem;
+	font-weight: 900;
+}
+
+#indexSignup .quality h2 span sup
+{
+	color: rgba(0, 0, 0, 1);
+	font-weight: 900;
+}
+
+#indexDownload {
+	margin-top: 2em;
+}
+
+#indexDownload h1 {
+	margin: 1em 0em;
+	color: #009444;
+}
+
+#indexDownload h1 span {
+	color: #00683B;
+}
+
+#indexDownload .row i {
+	color: #009444;
+	font-size: 4em;
+	text-align: center;
+}
+
+#indexDownload a {
+	margin: 1em 0em;
+	text-align: center;
+}
+
+
+div#indexContact {
+	background-color: #09c25f;
+	margin-top: 1em;
+	min-height: 300px;
+}
+
+div#indexContact h3  {
+	margin-bottom: 0em;
+}
+
+div#indexContact hr {
+	background-color:	rgba(255, 255, 255, 1);
+	height: 0.1em;
+	margin: 0.5em 0em 2em;
+	width: 30%;
+}
+
+div#indexContact .row2 label {
+	color: rgba(255, 255, 255, 1);
+	font-weight: bold;
+}
+
+div#indexContact p {
+	color: rgba(0, 0, 0, 1);
+	font-weight: lighter;
+}
+
+div#indexContact div[class*=col-md-] {
+	margin: 2em 2em 0em 1em;
+}
+
+div#indexContact div[class*=col-md-3] {
+	margin: 2em 0em 0em 1em;
+}
+
+div#indexContact div[class*=col-md-3] li {
+	list-style-type: square;
+	margin: 0em 0em 1em 1em;
+}
+
+
+#indexContact .container-fluid div[class*=col-] p a
+{
+	
+	background-position: center center;
+	background-repeat: no-repeat;
+    background-size: 50px 50px;
+    color: rgba(250,250,250,1);
+	margin: 0.5em 0.1em;
+	padding: 1.9em;
+	width: 20%;
+}
+
+#indexContact .container-fluid div[class*=col-] p a#fb
+{
+	background-image: url('../images/fb_gray.png');
+
+}
+
+#indexContact .container-fluid div[class*=col-] p a#fb:hover
+{
+	background-image: url('../images/fb_black.png');
+}
+
+#indexContact .container-fluid div[class*=col-] p a#tw
+{
+	background-image: url('../images/twt_gray.png');
+	padding-top: 40px;
+	padding-bottom: 40px; 
+}
+
+#indexContact .container-fluid div[class*=col-] p a#tw:hover
+{
+	background-image: url('../images/twt_black.png');
+}
+
+#indexContact .container-fluid div[class*=col-] p a#gg
+{
+	background-image: url('../images/gg_gray.png');
+}
+
+#indexContact .container-fluid div[class*=col-] p a#gg:hover
+{
+	background-image: url('../images/gg_black.png');
+}
+
+#indexContact button
+{
+	width: 100%;
+}
+
+
+
+/** div#indexContact Ends Here **/
+
+footer {
+	background-color: #00683B;
+}
+
+footer p {
+	color: rgba(255, 255, 255, 0.7);
+	margin-left: 1em; 
+}
+
+footer a {
+	color: rgba(99, 255, 159, 0.6);
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: bold;
+	margin-right: 1.5em; 
+}
+
+
+
+
+/** Index Style Ends Here **/
+
+/** About Page Style Begins here **/
+
+#innerSignup {
+	background-color: rgb(236, 245,255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 800px;
+	text-align: left;
+}
+
+
+
+#innerSignup .cform{
+	box-shadow: 0 2px 6px #0bd368, 0 3px 5px #00683B;
+}
+
+#innerSignup label{
+	font-weight: 600;
+	text-align: left;
+}
+
+#innerSignup .card-header{
+	background-color: #0bd368;
+}
+
+#innerSignup .modal-header{
+	background-color: #0bd368;
+}
+
+#innerSignup .sub-btn{
+	width: 100%;
+	display: block;
+	padding: .5em 1em;
+	outline: none;
+	border: none;
+	background-color: #0bd368;
+	font-size: 1.2em;
+	color: white;
+	border-radius: .2em;
+}
+
+
+#innerSignup .error{
+	color: #dc3545;
+}
+
+
+
+body #innerAbout {
+	background-image: url('../images/aboutpg.jpg');
+	background-position: center center;
+    background-repeat: no-repeat;
+	background-attachment: local;
+	margin-top: 0em;
+	padding: 0em;
+	min-height: 200px;	
+	width: 100%;
+    color: rgba(250,250,250,1);
+}
+
+#innerAbout div[class*=col-] p {
+	color: rgba(255, 255, 255, 1); 
+	font-size: 1.2em;
+	margin: 0em;
+	padding: 2.5em 1.5em 1.5em; 
+}
+
+div#innerAbout div[class*=col-] h2 {
+	color: rgba(255, 255, 255, 1); 
+	font-weight: bolder;
+	margin: 2em 1em 0em;
+}
+
+body #innerContent h1 {
+	color: rgba(1,19,143,1);
+	text-align: Center;
+	margin: 1em 0em;
+}
+
+body #innerContent span {
+	color: rgba(99, 140, 255, 1);
+}
+
+body #innerContent p {
+	color: rgba(0, 0, 0, 1);
+	padding: 0em 1em 1em;
+	text-align: justify;
+}
+
+body #innerContent h3 {
+	color: rgba(1,19,143,1);
+	margin: 0.5em 0.5em 0.2em;
+}
+
+body #innerContent hr {
+	background-color: rgba(1,19,143,1);
+	height: 0.1em;
+	width: 10%;
+	margin: 0em 1em 1.5em;
+}
+
+#innerContent .why  {
+	margin-top: 3em;
+}
+
+#innerContent .why span {
+	background-color: rgba(1,19,143,1);	
+	border-radius: 100px;
+	color: white;
+	font-family: agency fb;
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+	margin: 0.2em 20px 0.2em 20px;
+	padding: 1em;
+}
+
+#innerContent h4 {
+	color: rgba(1,19,143,1);
+	margin: 2.5em 0.5em 2em;
+}
+
+#innerContent .news h4 {
+ margin: 2.5em 0.5em 0.5em;
+}
+
+#innerContent .news h5 {
+	margin: 0.5em 0em 0.5em 0.4em;
+}
+
+#innerContent .news p {
+	margin: 2em 0.5em;
+	padding: 0em;
+}
+
+#innerContent .news hr {
+	color: rgba(1,19,143,1);
+	width: 30%;
+}
+
+#innerContent .news .card {
+	margin: 0em 0.7em 1.5em;
+}
+
+#team h1 {
+	color: rgba(1,19,143,1);
+	margin: 1em 0em 1em;
+	text-align: center;
+}
+
+#team span {
+	color:rgba(99, 140, 255, 1);
+}
+
+#team .card {
+	margin-left: 1em;
+}
+
+@media screen and (max-width: 576px){
+
+	#innerContent .why  {
+		margin-top: 3em;
+		text-align: center;
+	}
+	
+	#innerContent .why span {
+		background-color: rgba(1,19,143,1);	
+		border-radius: 100px;
+		color: white;
+		font-family: agency fb;
+		font-size: 3em;
+		font-weight: bold;
+		text-align: center;
+		margin: 0.2em 20px 0.2em;
+		padding: 1em;
+	}
+
+	#innerContent h4 {
+		text-align: center;
+	}
+
+	#team .card {
+		margin-left: 4em;
+	}
+
+	#innerContent .news .card {
+		margin: 0em 4em 1.5em;
+	}
+
+	#innerContent .news h4  {
+		text-align: center;
+	   }
+	
+	#innerContent .news hr {
+		margin-left: 10em;
+		width: 20%;
+	}
+}
+
+
+
+/** About Page Ends Here **/
+
+/** Service Styles Start here **/
+
+#innerClient .card {
+	margin: 0em;
+	padding: 0em;
+}
+
+#innerClient h1 {
+	color: rgba(1,19,143,1);
+	text-align: Center;
+	margin: 1em 0em 0.5em;
+}
+
+#innerClient span {
+	color: rgba(99, 140, 255, 1);
+}
+
+#innerClient p {
+	color: rgba(0, 0, 0, 1);
+}
+
+
+/** Service Styles ends here **/
+
+/** Contact Styles here **/
+
+body #mainContact h3 {
+	margin: 2em 1.3em 1em;
+}
+
+body #mainContact input, body #mainContact textarea {
+	margin-left: 2.5em;
+	width: 80%;
+
+}
+
+body #mainContact label {
+	font-size: 1.2em;
+	font-weight: bolder;
+	margin-left: 2em;
+}
+
+body #mainContact button {
+	margin-left: 2em;
+}
+
+body #mainContact span {
+	color: rgba(0, 0, 0, 1);
+}
+
+body #mainContact p {
+	margin-left: 1.5em;
+}
